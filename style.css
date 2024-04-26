@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(60, 139, 173);
+}
+
+.heading {
+    text-align: center;
+}
+.special {
+color: red;
+}
+.tile-img {
+    height: 200px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 50px;
+}
+.card {
+    width: 45%;
+  }
+ 
+  
+  .left {
+    float: left;
+    margin-bottom: 20px;
+    
+  }
+  
+  .right {
+    float: right;
+  }
+.bottom-left {
+  float: left;
+}
+.bottom-right {
+  float: right;
+  
+}
+  
+  @media (max-width: 360px) {
+    .heading {
+        width: 100%;
+    }
+ 
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 90%;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+ 
